@@ -4,12 +4,6 @@ C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\MinhaApi.UI\obj\
 C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\MinhaApi.UI\obj\Debug\netcoreapp2.2\DevIO.Api.csproj.CoreCompileInputs.cache
 C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\MinhaApi.UI\obj\Debug\netcoreapp2.2\DevIO.Api.RazorAssemblyInfo.cache
 C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\MinhaApi.UI\obj\Debug\netcoreapp2.2\DevIO.Api.RazorAssemblyInfo.cs
-C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.csprojAssemblyReference.cache
-C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.csproj.CoreCompileInputs.cache
-C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.RazorAssemblyInfo.cache
-C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.RazorAssemblyInfo.cs
-C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.AssemblyInfoInputs.cache
-C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.AssemblyInfo.cs
 C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\bin\Debug\netcoreapp2.2\DevIO.Api.deps.json
 C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\bin\Debug\netcoreapp2.2\DevIO.Api.runtimeconfig.json
 C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\bin\Debug\netcoreapp2.2\DevIO.Api.runtimeconfig.dev.json
@@ -19,6 +13,12 @@ C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\bin\De
 C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\bin\Debug\netcoreapp2.2\DevIO.Data.dll
 C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\bin\Debug\netcoreapp2.2\DevIO.Business.pdb
 C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\bin\Debug\netcoreapp2.2\DevIO.Data.pdb
+C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.csprojAssemblyReference.cache
+C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.csproj.CoreCompileInputs.cache
+C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.RazorAssemblyInfo.cache
+C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.RazorAssemblyInfo.cs
+C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.AssemblyInfoInputs.cache
+C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.AssemblyInfo.cs
 C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.RazorTargetAssemblyInfo.cache
 C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.csproj.CopyComplete
 C:\Users\lataliba\Desktop\MinhaApiCompleta\MinhaApiCompleta\src\DevIO.Api\obj\Debug\netcoreapp2.2\DevIO.Api.dll
