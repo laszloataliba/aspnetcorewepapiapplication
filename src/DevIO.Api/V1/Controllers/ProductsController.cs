@@ -38,8 +38,7 @@ namespace DevIO.Api.V1.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet, 
-         AllowAnonymous]
+        [HttpGet]
         public async Task<IEnumerable<ProductViewModel>> GetAll()
         {
             return _mapper.Map<IEnumerable<ProductViewModel>>(await _productRepository.GetProductsSuppliers());

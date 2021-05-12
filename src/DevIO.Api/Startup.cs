@@ -1,13 +1,14 @@
 ﻿using AutoMapper;
 using DevIO.Api.Configuration;
 using DevIO.Data.Context;
+using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Swashbuckle.AspNetCore.Swagger;
 
 namespace DevIO.Api
 {
@@ -35,6 +36,11 @@ namespace DevIO.Api
 
             services.AddSwaggerConfig();
 
+            services.AddHealthChecks()
+                .AddSqlite(Configuration.GetConnectionString("DefaultConnection"), name: "SQLiteDataBase");
+
+            services.AddHealthChecksUI();
+
             services.ResolveDependencies();
         }
 
@@ -56,6 +62,15 @@ namespace DevIO.Api
             app.UseMvcConfiguration();
 
             app.UseSwaggerConfig(provider);
+
+            app.UseHealthChecks("/api/hc", new HealthCheckOptions() {
+                Predicate = _ => true,
+                ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+            });
+
+            app.UseHealthChecksUI(healthCheck => {
+                healthCheck.UIPath = "/api/hc-ui";
+            });
         }
     }
 }

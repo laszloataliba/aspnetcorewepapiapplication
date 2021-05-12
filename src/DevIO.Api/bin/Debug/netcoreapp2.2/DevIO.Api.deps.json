@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "b7313d728b38c2748ed80893d0814c013d4d6e57"
+    "signature": "ec560cdf703d88f5d4bb8857010a85c382be3def"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,9 @@
     ".NETCoreApp,Version=v2.2": {
       "DevIO.Api/1.0.0": {
         "dependencies": {
+          "AspNetCore.HealthChecks.Sqlite": "2.2.0",
+          "AspNetCore.HealthChecks.UI": "2.2.0",
+          "AspNetCore.HealthChecks.UI.Client": "2.2.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "DevIO.Business": "1.0.0",
           "DevIO.Data": "1.0.0",
@@ -42,6 +45,58 @@
         },
         "compile": {
           "DevIO.Api.dll": {}
+        }
+      },
+      "AspNetCore.HealthChecks.Sqlite/2.2.0": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite": "2.0.1",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HealthChecks.Sqlite.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/HealthChecks.Sqlite.dll": {}
+        }
+      },
+      "AspNetCore.HealthChecks.UI/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "2.2.6",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
+          "Microsoft.EntityFrameworkCore.Sqlite.Design": "1.1.5",
+          "Microsoft.Extensions.Configuration.Binder": "2.2.0",
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "2.2.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HealthChecks.UI.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/HealthChecks.UI.dll": {}
+        }
+      },
+      "AspNetCore.HealthChecks.UI.Client/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "2.2.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HealthChecks.UI.Client.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/HealthChecks.UI.Client.dll": {}
         }
       },
       "AutoMapper/9.0.0": {
@@ -149,6 +204,12 @@
           "lib/netstandard1.3/Microsoft.CodeAnalysis.Workspaces.dll": {}
         }
       },
+      "Microsoft.Data.Sqlite/2.0.1": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "2.2.6",
+          "SQLitePCLRaw.bundle_green": "1.1.12"
+        }
+      },
       "Microsoft.Data.Sqlite.Core/2.2.6": {
         "dependencies": {
           "SQLitePCLRaw.core": "1.1.12"
@@ -212,6 +273,21 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.6",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {
+            "assemblyVersion": "1.1.5.0",
+            "fileVersion": "1.1.5.31115"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Sqlite/2.2.6": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.2.6",
@@ -232,6 +308,22 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Sqlite.Design/1.1.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.5",
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Sqlite.Design.dll": {
+            "assemblyVersion": "1.1.5.0",
+            "fileVersion": "1.1.5.31115"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Sqlite.Design.dll": {}
         }
       },
       "Microsoft.VisualStudio.Web.CodeGeneration/2.2.3": {
@@ -3886,6 +3978,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AspNetCore.HealthChecks.Sqlite/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QIYMP2R/tjcvAX5mKIRRSTdfeP/M2EuE0XBIOt7w08gmAgvzyc9wGGRQOLnnC/+QSjCVFTCgYh1vnyeYo5u6Vw==",
+      "path": "aspnetcore.healthchecks.sqlite/2.2.0",
+      "hashPath": "aspnetcore.healthchecks.sqlite.2.2.0.nupkg.sha512"
+    },
+    "AspNetCore.HealthChecks.UI/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UhjY0IlJF3ID6xm4aIWvHp1jjaNYv/AOe6fVBNzPUucuDEp0jdTAnYx/oSXZCmu6RnzMz3a+6Hgws1sYdDBZfQ==",
+      "path": "aspnetcore.healthchecks.ui/2.2.0",
+      "hashPath": "aspnetcore.healthchecks.ui.2.2.0.nupkg.sha512"
+    },
+    "AspNetCore.HealthChecks.UI.Client/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hdCbuAX0AQT3kT9wY+jziWYLfHJonkAB9ESir6VV2biub5llPtTlZvyCHyBbHhXd3t3Ng8rJSGm/4Mj0soHz4g==",
+      "path": "aspnetcore.healthchecks.ui.client/2.2.0",
+      "hashPath": "aspnetcore.healthchecks.ui.client.2.2.0.nupkg.sha512"
+    },
     "AutoMapper/9.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3935,6 +4048,13 @@
       "path": "microsoft.codeanalysis.workspaces.common/2.8.0",
       "hashPath": "microsoft.codeanalysis.workspaces.common.2.8.0.nupkg.sha512"
     },
+    "Microsoft.Data.Sqlite/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jJXCZniFDwHGnRYd9WD3vswQCyIXk0/gsne9TLFWIpy6oK4kAcKD1BTncaHQmVg0pp/YmRBKXVIh4yXSHqbsGQ==",
+      "path": "microsoft.data.sqlite/2.0.1",
+      "hashPath": "microsoft.data.sqlite.2.0.1.nupkg.sha512"
+    },
     "Microsoft.Data.Sqlite.Core/2.2.6": {
       "type": "package",
       "serviceable": true,
@@ -3970,6 +4090,13 @@
       "path": "microsoft.entityframeworkcore.relational/2.2.6",
       "hashPath": "microsoft.entityframeworkcore.relational.2.2.6.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WqPO8M9Ho0CiJ1tnIgWgXoAPt8/oIE8lcELZYbvmiVyr59f395HmHQhGCXti0/DePgPb7N6EHTIgCczRyuqIkg==",
+      "path": "microsoft.entityframeworkcore.relational.design/1.1.5",
+      "hashPath": "microsoft.entityframeworkcore.relational.design.1.1.5.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore.Sqlite/2.2.6": {
       "type": "package",
       "serviceable": true,
@@ -3983,6 +4110,13 @@
       "sha512": "sha512-FRwNvIjcoDaMGExrrGb02ULgY0dhkk70OuY7Bc61wK4rOVHweLiCAaJJ3y3s9w604lM1lBcTWmEilFincRJRhw==",
       "path": "microsoft.entityframeworkcore.sqlite.core/2.2.6",
       "hashPath": "microsoft.entityframeworkcore.sqlite.core.2.2.6.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Sqlite.Design/1.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wRkG4GLudfVMcGbcLn8G+deaKKZR0iJw7Oj8iKlkzp/JomQVN9N3KuRgDwsyZJ7DMxvJB7+dm+eexYxtaAjgUw==",
+      "path": "microsoft.entityframeworkcore.sqlite.design/1.1.5",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.design.1.1.5.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.CodeGeneration/2.2.3": {
       "type": "package",
